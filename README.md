@@ -36,7 +36,7 @@ The pack is one skill. Copy it wherever your agent keeps skills:
 | Others | put `SKILL.md` + `references/` wherever your agent loads instructions from, or paste the SKILL.md body into your AGENTS.md |
 
 ```bash
-git clone https://github.com/AhmedHassan21/anyoutreach.git
+git clone https://github.com/ahmedmetered/anyoutreach.git
 cp -r anyoutreach/skill/* ~/.agents/skills/cold-outreach/   # or your agent's dir above
 ```
 
