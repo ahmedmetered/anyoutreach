@@ -1,8 +1,8 @@
-# OpenOutreach
+# AnyOutreach
 
 **Cold outreach that runs on the AI assistant you already have.**
 
-OpenOutreach is an agent-native skill pack that turns any coding assistant (ZCode, Claude Code, Codex CLI, Cursor, or anything that loads markdown skills) into a cold-email pipeline: it profiles your prospects, writes personalized first emails, queues them in a plain-text outbox you approve, and drafts the replies. You bring the agent and the prospect list. No API keys, no per-token bills, no lock-in to one vendor's CLI.
+AnyOutreach is an agent-native skill pack that turns any coding assistant (ZCode, Claude Code, Codex CLI, Cursor, or anything that loads markdown skills) into a cold-email pipeline: it profiles your prospects, writes personalized first emails, queues them in a plain-text outbox you approve, and drafts the replies. You bring the agent and the prospect list. No API keys, no per-token bills, no lock-in to one vendor's CLI.
 
 ```
 you:     run outreach for this list
@@ -16,7 +16,7 @@ agent:   objection: price. Draft queued. Prospect 2 said "remove me": closed, pe
 
 ## Why this exists
 
-The strongest open-source cold-email agent, [Harvey](https://github.com/ethanplusai/harvey), runs its brain through the `claude` CLI (or a pinned Codex build). That couples your outreach to one vendor's subscription and one provider's plumbing. OpenOutreach takes Harvey's method (MIT, credited below) and makes the *agent itself* the runtime, which buys three things:
+The strongest open-source cold-email agent, [Harvey](https://github.com/ethanplusai/harvey), runs its brain through the `claude` CLI (or a pinned Codex build). That couples your outreach to one vendor's subscription and one provider's plumbing. AnyOutreach takes Harvey's method (MIT, credited below) and makes the *agent itself* the runtime, which buys three things:
 
 - **Any assistant.** If your tool can read a SKILL.md and fetch a URL, it can run this. Switching agents costs you nothing.
 - **Your list, not its list.** Stock discovery engines find what they find; you point this at your own CSV, crawl, or CRM export.
@@ -36,8 +36,8 @@ The pack is one skill. Copy it wherever your agent keeps skills:
 | Others | put `SKILL.md` + `references/` wherever your agent loads instructions from, or paste the SKILL.md body into your AGENTS.md |
 
 ```bash
-git clone https://github.com/AhmedHassan21/openoutreach.git
-cp -r openoutreach/skill/* ~/.agents/skills/cold-outreach/   # or your agent's dir above
+git clone https://github.com/AhmedHassan21/anyoutreach.git
+cp -r anyoutreach/skill/* ~/.agents/skills/cold-outreach/   # or your agent's dir above
 ```
 
 ## Use
@@ -64,4 +64,4 @@ examples/                         fictional persona + sample batch
 
 MIT. The outreach method, writing rules, and reply-handling guidance are adapted from [ethanplusai/harvey](https://github.com/ethanplusai/harvey) by Ethan Rogers (MIT). Go star the original; this project would not exist without it.
 
-No affiliation with harvey.ai (the legal AI company). The name OpenOutreach was chosen on purpose.
+No affiliation with harvey.ai (the legal AI company). The name AnyOutreach was chosen on purpose.
