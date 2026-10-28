@@ -68,4 +68,4 @@ No affiliation with harvey.ai (the legal AI company). The name AnyOutreach was c
 
 ## Works with
 
-- [anyoutbound](https://github.com/ahmedmetered/anyoutbound) bundles this skill with prospect-sweep into one lead-generation + approval-first outreach pipeline.
+- [anydeals](https://github.com/ahmedmetered/anydeals) bundles this skill with prospect-sweep into one lead-generation + approval-first outreach pipeline.
