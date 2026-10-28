@@ -65,3 +65,7 @@ examples/                         fictional persona + sample batch
 MIT. The outreach method, writing rules, and reply-handling guidance are adapted from [ethanplusai/harvey](https://github.com/ethanplusai/harvey) by Ethan Rogers (MIT). Go star the original; this project would not exist without it.
 
 No affiliation with harvey.ai (the legal AI company). The name AnyOutreach was chosen on purpose.
+
+## Works with
+
+- [anyoutbound](https://github.com/ahmedmetered/anyoutbound) bundles this skill with prospect-sweep into one lead-generation + approval-first outreach pipeline.
