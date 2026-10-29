@@ -38,7 +38,7 @@ Everything here is invented, in the style of a real setup. Use it as a reference
 
 ## 1. Farmacia dei Portici (Torino)
 
-**stato: bozza** · trigger: recognition (street photo)
+**status: draft** · trigger: recognition (street photo)
 
 **A:** farmaciaportici.example
 **Oggetto:** la foto su maps
@@ -54,7 +54,7 @@ Segnalo
 
 ## 2. Farmacia Centrale (Novara)
 
-**stato: approvata** · trigger: easy yes (name consistency)
+**status: approved** · trigger: easy yes (name consistency)
 
 **A:** centrale.farmacia.example
 **Oggetto:** il nome sull'insegna
